@@ -6,24 +6,24 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot Configuration
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("")
+API_ID = int(os.getenv("25843624"))
+API_HASH = os.getenv("4b8de166ae4cc627faaba39c409937a5")
 
 # Database Configuration
-MONGO_URI = os.getenv("MONGO_URI")
-DATABASE_NAME = os.getenv("DATABASE_NAME")
+MONGO_URI = os.getenv("mongodb+srv://webbeastboy:wadN2Y4ejiXhBefo@cluster0.l11o8.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = os.getenv("Shubham")
 
 # Channel Configuration
-DB_CHANNEL_ID = int(os.getenv("DB_CHANNEL_ID"))
+DB_CHANNEL_ID = int(os.getenv("-1002598527131"))
 FORCE_SUB_CHANNEL = int(os.getenv("FORCE_SUB_CHANNEL"))
 
 # Bot Information
-BOT_USERNAME = os.getenv("BOT_USERNAME")
-BOT_NAME = os.getenv("BOT_NAME")
+BOT_USERNAME = os.getenv("kumarshubham_Robot")
+BOT_NAME = os.getenv("Shubham Kumar")
 BOT_VERSION = "1.3"
 # Privacy Mode Configuration
-PRIVACY_MODE = os.getenv("PRIVACY_MODE", "off").lower() == "on"
+PRIVACY_MODE = os.getenv("PRIVACY_MODE", "on").lower() == "on"
 
 # Your Modiji Url Api Key Here
 MODIJI_API_KEY = os.getenv("MODIJI_API_KEY")
@@ -48,7 +48,7 @@ ADMIN_IDS: List[int] = [
 ]
 
 # File size limit (2GB in bytes)
-MAX_FILE_SIZE = 2000 * 1024 * 1024
+MAX_FILE_SIZE = 10000 * 1024 * 1024
 
 # Supported file types and extensions
 SUPPORTED_TYPES = [
