@@ -16,7 +16,7 @@ DATABASE_NAME = os.getenv("Shubham")
 
 # Channel Configuration
 DB_CHANNEL_ID = int(os.getenv("-1002598527131"))
-FORCE_SUB_CHANNEL = int(os.getenv("FORCE_SUB_CHANNEL"))
+FORCE_SUB_CHANNEL = int(os.getenv("-1002665952281"))
 
 # Bot Information
 BOT_USERNAME = os.getenv("kumarshubham_Robot")
